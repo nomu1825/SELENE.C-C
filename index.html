@@ -70,7 +70,7 @@
     min-height: 100vh;
     min-height: 100svh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     overflow: hidden;
   }
 
@@ -78,6 +78,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 80px 56px;
     background: var(--bg);
   }
@@ -93,7 +95,7 @@
     padding: 9px 28px;
     margin-bottom: 40px;
     display: inline-block;
-    align-self: flex-start;
+    align-self: center;
     opacity: 0;
     animation: heroFade 1s 0.3s forwards;
   }
@@ -128,7 +130,7 @@
     align-items: center;
     gap: 14px;
     margin-top: 44px;
-    align-self: flex-start;
+    align-self: center;
     font-family: var(--ff-body);
     font-size: 0.82rem;
     font-weight: 700;
@@ -370,10 +372,6 @@
       お問い合わせ
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
     </a>
-  </div>
-  <div class="hero-photo">
-    <!-- 🔄 SWAP: ヒーロー写真 -->
-    <div class="ph-img-box" style="background: linear-gradient(135deg, #d4c4ac, #baa88c);">HERO PHOTO<br>ここに写真を配置</div>
   </div>
 </section>
 
